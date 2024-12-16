@@ -9,6 +9,7 @@ increaseText.addEventListener("click", function () {
 });
 
 decreaseText.addEventListener("click", function () {
+  // Doesnt decrease further (into negative)
   if (updateNumber > 0) {
     updateNumber--;
     number.textContent = updateNumber;
